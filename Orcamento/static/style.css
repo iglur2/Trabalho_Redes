@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: rgb(167, 167, 167);
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+}
+
+#deletebtn{
+    margin: 20
+    px;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgb(208, 206, 206);
+    color: black;
+}
+
+.budget {
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    table {
+        font-size: 14px;
+    }
+}
